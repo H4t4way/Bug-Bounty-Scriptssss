@@ -1,0 +1,5 @@
+##Find all parameter 
+
+cat subdomain.txt | waybackurls | grep "=" | tee a ParamDomain.txt
+
+##
