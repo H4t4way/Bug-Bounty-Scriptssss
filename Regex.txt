@@ -1,5 +1,8 @@
 ##Find all parameter 
 
-cat subdomain.txt | waybackurls | grep "=" | tee a ParamDomain.txt
+cat subdomains.txt | waybackurls | grep "=" | tee a ParamDomain.txt
 
-##
+##Find endpoints 
+
+cat subddomains.txt | waybackurls >> Endwayback.txt
+cat subdomains.txt  | hackrawler -depth 3 -plain >> Endhackrawler.txt 
