@@ -13,9 +13,9 @@ RED='\033[0;31m'
 NC='\033[0m'
 
 menu(){
-  echo -e "${GREEN} - JsSF estrapola file javascript da un dominio o da una lista di domini"
-  echo -e " - Fa un bel fetch di tutto quanto"
-  echo -e " - Usa Linkfinder per trovate endpoint all'interno del js ed estrapola ipotetiche variabili js per XSS"
+  echo -e "${GREEN} - JsSF extract javascript files from a domain or a list of domains"
+  echo -e " - To implement--Makes a nice fetch of everything"
+  echo -e " - To implement--Find endpoints within js and extrapolate hypothetical js variables for XSS"
   echo -e "Utilizzo:"
   echo -e "        jsSF.sh -u file.js  "
   echo -e "        jsSF.sh -f file.txt${NC}"
@@ -51,7 +51,7 @@ while getopts ':u:f:' flag; do
     f ) domain=$OPTARG
         print_files
         ;;
-    \? ) echo "flag sbagliata"
+    \? ) echo "Wrong Flag"
          exit 1
         ;;
     : )
