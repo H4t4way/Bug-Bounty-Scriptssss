@@ -16,7 +16,7 @@ menu(){
   echo -e "${GREEN} - JsSF extract javascript files from a domain or a list of domains"
   echo -e " - To implement--Makes a nice fetch of everything"
   echo -e " - To implement--Find endpoints within js and extrapolate hypothetical js variables for XSS"
-  echo -e "Utilizzo:"
+  echo -e "Use:"
   echo -e "        jsSF.sh -u file.js  "
   echo -e "        jsSF.sh -f file.txt${NC}"
 }
