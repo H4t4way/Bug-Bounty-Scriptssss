@@ -37,7 +37,7 @@ __        ___
 	: 'Display help text when no arguments are given'
 	checkArguments() {
 		if [[ -z $domain ]]; then
-			echo -e "[$GREEN+$RESET] Usage: recon <domain.tld>"
+			echo -e "[$GREEN+$RESET] Usage: wies <domain>"
 			exit 1
 		fi
 	}
