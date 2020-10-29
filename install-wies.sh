@@ -10,15 +10,8 @@ VERSION="2.2"
 : 'Display the logo'
 displayLogo() {
 	clear
-	echo -e "
-                           
-	  _           _        _ _
-   (_)_ __  ___| |_ __ _| | |
-   | | '_ \/ __| __/ _` | | |
-   | | | | \__ \ || (_| | | |
-   |_|_| |_|___/\__\__,_|_|_|
-"
-		}
+	echo -e "Installazione"
+}
 
 	: 'Basic requirements'
 	basicRequirements() {
